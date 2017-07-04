@@ -1,0 +1,60 @@
+.pricingTable-header {
+  padding:1px 25px;
+  height:110px;
+}
+
+.price-value {
+  font-size:25px;
+  line-height:35px;
+  color:#4f4b4b;
+  display:inline-block;
+  position:relative;
+}
+
+.price-value i {
+  position:absolute;
+  top:3px;
+  font-size:22px;
+}
+
+.pricingContent ul {
+  padding:0 25px;
+  margin-bottom:0;
+  list-style:none;
+  max-width:400px;
+}
+
+.pricingContent ul li:last-child {
+  text-transform:none;
+  font-size:16px;
+  color:rgb(255,77,0);
+}
+
+.pricingTable .pricingTable-sign-up {
+  padding:25px 0;
+  border-top:1px solid #dbdbdb;
+}
+
+.btn-block {
+  width:50%;
+  margin:0 auto;
+  background:#6c6c6c;
+  border:1px solid #6c6c6c;
+  padding:10px 0;
+  color:#fff;
+  text-transform:uppercase;
+  border-radius:50px;
+  transition:0.3s ease;
+}
+
+.pricingTable .btn-block:hover {
+  background:#fff;
+  color:#008b8b;
+  border:1px solid #008b8b;
+}
+
+#contact {
+  background:url("../../assets/img/contact-bg.png") no-repeat center center;
+  background-size:cover;
+}
+
