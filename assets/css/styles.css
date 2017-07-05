@@ -32,7 +32,7 @@ header {
 .nav a {
   color:rgb(135,135,134) !important;
   font-size:15px;
-  font-family:roboto;
+  font-family:'roboto';
   font-weight:200;
 }
 
@@ -79,7 +79,7 @@ span {
   color:#878786;
 }
 
-#separator {
+#separator, #separator2 {
   height:400px;
   background-size:cover;
   background-repeat:no-repeat;
@@ -178,10 +178,9 @@ footer {
   flex-direction:column;
   min-height:274px;
   margin:0 auto;
-}
-
-.pricingTable-header {
-  border-radius:5px 5px 0px 0px;
+  padding:0 25px;
+  list-style:none;
+  max-width:400px;
 }
 
 .pricingTable {
@@ -326,7 +325,6 @@ footer {
 .brief h2, .brief h3 {
   color:black;
   margin:0px;
-  letter-spacing:-1px;
 }
 
 @media (max-width:991px) {
@@ -356,6 +354,8 @@ footer {
 
 .carousel-control, .carousel-control:hover {
   background-image:none !important;
+  display:none;
+  margin-top:48px;
 }
 
 .brief {
@@ -401,5 +401,45 @@ footer {
 
 .brief {
   margin:15px auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#4e4e4e;
+  font-weight:600;
+}
+
+.price-value {
+  font-size:25px;
+  line-height:35px;
+  color:#4f4b4b;
+  display:inline-block;
+  position:relative;
+}
+
+.pricingTable-header {
+  padding:1px 25px;
+  height:110px;
+  border-radius:5px 5px 0px 0px;
+}
+
+.price-value i {
+  position:absolute;
+  top:3px;
+  font-size:22px;
+}
+
+.pricingContent ul li:last-child {
+  text-transform:none;
+  font-size:16px;
+  color:rgb(255,77,0);
+}
+
+#contact {
+  background:url("../../assets/img/contact-bg.png") no-repeat center center;
+  background-size:cover;
+}
+
+.carousel-control i {
+  font-size:40px;
 }
 

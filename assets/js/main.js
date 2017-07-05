@@ -60,6 +60,13 @@ $('.page').waypoint(function(direction) {
         $( "#burguer" ).removeClass('hidden');
     });
  
-
+// Hover en flechas de carousel de trabajos
+    $('#proyects').mouseenter(function(){
+       $('.carousel-control').fadeIn('fast'); 
+    });
+    $('#proyects').mouseleave(function(){
+       $('.carousel-control').fadeOut('fast'); 
+    });
+    
     
 });
